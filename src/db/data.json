@@ -1,0 +1,235 @@
+{
+  "javascript": [
+    {
+      "question": "What is the output of the following code?\n\nconsole.log(2 + '2');",
+      "answer": "22",
+      "options": ["4", "22", "NaN", "undefined"]
+    },
+    {
+      "question": "Which of the following is NOT a JavaScript data type?",
+      "answer": "Float",
+      "options": ["String", "Number", "Boolean", "Float"]
+    },
+    {
+      "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+      "answer": "To determine the data type of a value",
+      "options": [
+        "To perform mathematical operations",
+        "To check if a variable is defined",
+        "To determine the data type of a value",
+        "To loop over an array"
+      ]
+    },
+    {
+      "question": "What does the 'this' keyword refer to in JavaScript?",
+      "answer": "The current execution context",
+      "options": [
+        "The global object",
+        "The parent function",
+        "The current execution context",
+        "The previous object"
+      ]
+    },
+    {
+      "question": "Which array method is used to add new elements to the end of an array?",
+      "answer": "push()",
+      "options": ["slice()", "pop()", "push()", "concat()"]
+    }
+  ],
+  "video_games": [
+    {
+      "question": "Which video game franchise features the character Master Chief?",
+      "answer": "Halo",
+      "options": ["Halo", "Call of Duty", "Assassin's Creed", "Super Mario"]
+    },
+    {
+      "question": "In the game 'The Legend of Zelda: Ocarina of Time,' what is the name of the main protagonist?",
+      "answer": "Link",
+      "options": ["Link", "Zelda", "Ganondorf", "Navi"]
+    },
+    {
+      "question": "Which video game series takes place in the post-apocalyptic world of Wasteland?",
+      "answer": "Fallout",
+      "options": ["Fallout", "Bioshock", "The Elder Scrolls", "Borderlands"]
+    },
+    {
+      "question": "Which game introduced the iconic character, Sonic the Hedgehog?",
+      "answer": "Sonic the Hedgehog",
+      "options": [
+        "Sonic the Hedgehog",
+        "Super Mario Bros.",
+        "Pac-Man",
+        "Donkey Kong"
+      ]
+    },
+    {
+      "question": "Which game features the character Geralt of Rivia, a professional monster slayer?",
+      "answer": "The Witcher",
+      "options": ["The Witcher", "Final Fantasy", "God of War", "Dark Souls"]
+    },
+    {
+      "question": "What is the best-selling video game of all time as of 2021?",
+      "answer": "Minecraft",
+      "options": [
+        "Minecraft",
+        "Tetris",
+        "Grand Theft Auto V",
+        "PlayerUnknown's Battlegrounds"
+      ]
+    },
+    {
+      "question": "Which game is set in the fictional city of Rapture, an underwater dystopia?",
+      "answer": "Bioshock",
+      "options": ["Bioshock", "Doom", "Half-Life", "Portal"]
+    },
+    {
+      "question": "Which game features the character Nathan Drake, a treasure hunter?",
+      "answer": "Uncharted",
+      "options": [
+        "Uncharted",
+        "Metal Gear Solid",
+        "Splinter Cell",
+        "Tomb Raider"
+      ]
+    },
+    {
+      "question": "In the game 'Pokémon Red and Blue,' which Pokémon is known as the 'Electric Mouse'?",
+      "answer": "Pikachu",
+      "options": ["Pikachu", "Charizard", "Jigglypuff", "Squirtle"]
+    },
+    {
+      "question": "Which game is set in the fantasy world of Azeroth and features two opposing factions, the Alliance and the Horde?",
+      "answer": "World of Warcraft",
+      "options": [
+        "World of Warcraft",
+        "Final Fantasy XIV",
+        "The Elder Scrolls Online",
+        "Guild Wars 2"
+      ]
+    }
+  ],
+  "animals": [
+    {
+      "question": "Which animal is known for its black and white fur and is native to China?",
+      "answer": "Giant Panda",
+      "options": ["Giant Panda", "Tiger", "Kangaroo", "Giraffe"]
+    },
+    {
+      "question": "Which animal is the largest land mammal?",
+      "answer": "African Elephant",
+      "options": ["African Elephant", "Hippopotamus", "Gorilla", "Rhinoceros"]
+    },
+    {
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "answer": "African Grey Parrot",
+      "options": ["African Grey Parrot", "Penguin", "Ostrich", "Bald Eagle"]
+    },
+    {
+      "question": "Which animal is known for its ability to change its color to match its surroundings?",
+      "answer": "Chameleon",
+      "options": ["Chameleon", "Toucan", "Koala", "Sloth"]
+    },
+    {
+      "question": "Which animal is the symbol of wisdom and is associated with ancient Greek mythology?",
+      "answer": "Owl",
+      "options": ["Owl", "Snake", "Lion", "Butterfly"]
+    },
+    {
+      "question": "Which marine animal is known for its powerful suction cups and tentacles?",
+      "answer": "Octopus",
+      "options": ["Octopus", "Dolphin", "Shark", "Sea Turtle"]
+    },
+    {
+      "question": "Which animal is known for its long neck and is native to Africa?",
+      "answer": "Giraffe",
+      "options": ["Giraffe", "Kangaroo", "Polar Bear", "Lion"]
+    },
+    {
+      "question": "Which animal is capable of flying and is the only mammal that can do so naturally?",
+      "answer": "Bat",
+      "options": ["Bat", "Eagle", "Butterfly", "Penguin"]
+    },
+    {
+      "question": "Which animal is considered the king of the jungle?",
+      "answer": "Lion",
+      "options": ["Lion", "Gorilla", "Tiger", "Leopard"]
+    },
+    {
+      "question": "Which animal is known for its black and white stripes and is native to Africa?",
+      "answer": "Zebra",
+      "options": ["Zebra", "Cheetah", "Kangaroo", "Giraffe"]
+    }
+  ],
+  "general": [
+    {
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "options": ["London", "Berlin", "Madrid", "Paris"]
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answer": "Leonardo da Vinci",
+      "options": [
+        "Pablo Picasso",
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Leonardo da Vinci"
+      ]
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "answer": "Jupiter",
+      "options": ["Mars", "Saturn", "Jupiter", "Neptune"]
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "answer": "Au",
+      "options": ["Fe", "Ag", "Au", "Cu"]
+    },
+    {
+      "question": "Who wrote the play Romeo and Juliet?",
+      "answer": "William Shakespeare",
+      "options": [
+        "Oscar Wilde",
+        "Jane Austen",
+        "William Shakespeare",
+        "Emily Bronte"
+      ]
+    },
+    {
+      "question": "What is the tallest mountain in the world?",
+      "answer": "Mount Everest",
+      "options": ["K2", "Mount Everest", "Matterhorn", "Kilimanjaro"]
+    },
+    {
+      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "answer": "Japan",
+      "options": ["China", "South Korea", "Japan", "Thailand"]
+    },
+    {
+      "question": "Who invented the telephone?",
+      "answer": "Alexander Graham Bell",
+      "options": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "Alexander Graham Bell",
+        "Albert Einstein"
+      ]
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "answer": "Pacific Ocean",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ]
+    },
+    {
+      "question": "What is the chemical symbol for iron?",
+      "answer": "Fe",
+      "options": ["Au", "Ag", "Fe", "Cu"]
+    }
+  ]
+}
