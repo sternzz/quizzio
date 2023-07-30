@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   const router = useRouter();
@@ -9,7 +9,7 @@ export default function Home() {
   const [category, setCategory] = useState("general");
 
   const handleCategory = (e) => {
-    setCategory(e.target.value);
+    setCategory(e.target.value);   
   };
 
   const handleAmount = (e) => {
@@ -39,15 +39,14 @@ export default function Home() {
             </label>
             <select
               defaultValue={category}
-              required
               onChange={handleCategory}
               className="border outline-none text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-100 text-black border-gray-600 placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
             >
               <option value={""}>Choose a Category</option>
               <option value="animals">Animals</option>
-              <option value="javascript">Javascript</option>
+              <option value="general">General</option>
               <option value="video_games">Video Games</option>
-            </select>
+            </select >
           </div>
 
           <div className="">

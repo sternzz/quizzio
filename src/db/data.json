@@ -1,41 +1,4 @@
 {
-  "javascript": [
-    {
-      "question": "What is the output of the following code?\n\nconsole.log(2 + '2');",
-      "answer": "22",
-      "options": ["4", "22", "NaN", "undefined"]
-    },
-    {
-      "question": "Which of the following is NOT a JavaScript data type?",
-      "answer": "Float",
-      "options": ["String", "Number", "Boolean", "Float"]
-    },
-    {
-      "question": "What is the purpose of the 'typeof' operator in JavaScript?",
-      "answer": "To determine the data type of a value",
-      "options": [
-        "To perform mathematical operations",
-        "To check if a variable is defined",
-        "To determine the data type of a value",
-        "To loop over an array"
-      ]
-    },
-    {
-      "question": "What does the 'this' keyword refer to in JavaScript?",
-      "answer": "The current execution context",
-      "options": [
-        "The global object",
-        "The parent function",
-        "The current execution context",
-        "The previous object"
-      ]
-    },
-    {
-      "question": "Which array method is used to add new elements to the end of an array?",
-      "answer": "push()",
-      "options": ["slice()", "pop()", "push()", "concat()"]
-    }
-  ],
   "video_games": [
     {
       "question": "Which video game franchise features the character Master Chief?",
@@ -109,6 +72,56 @@
     }
   ],
   "animals": [
+    {
+      "question": "What is the world's smallest bird?",
+      "answer": "Bee Hummingbird",
+      "options": ["Sparrow", "Bee Hummingbird", "Robin", "Finch"]
+    },
+    {
+      "question": "What do you call a baby cow?",
+      "answer": "Calf",
+      "options": ["Lamb", "Foal", "Calf", "Puppy"]
+    },
+    {
+      "question": "What is the national bird of India?",
+      "answer": "Indian Peafowl (Peacock)",
+      "options": ["Indian Peafowl (Peacock)", "Indian Roller", "Sparrow", "Indian Vulture"]
+    },
+    {
+      "question": "Which animal is known for its ability to change color to match its surroundings?",
+      "answer": "Chameleon",
+      "options": ["Chameleon", "Lizard", "Snake", "Frog"]
+    },
+    {
+      "question": "What do you call a baby dog?",
+      "answer": "Puppy",
+      "options": ["Kitten", "Puppy", "Calf", "Foal"]
+    },
+    {
+      "question": "What do you call a baby cat?",
+      "answer": "Kitten",
+      "options": ["Calf", "Puppy", "Kitten", "Foal"]
+    },
+    {
+      "question": "Which animal is known for its black and white stripes?",
+      "answer": "Zebra",
+      "options": ["Tiger", "Zebra", "Giraffe", "Leopard"]
+    },
+    {
+      "question": "What is the tallest animal in the world?",
+      "answer": "Giraffe",
+      "options": ["Elephant", "Giraffe", "Gorilla", "Kangaroo"]
+    },
+    {
+      "question": "What is the fastest land animal?",
+      "answer": "Cheetah",
+      "options": ["Gazelle", "Lion", "Cheetah", "Leopard"]
+    },
+    {
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "answer": "African Grey Parrot",
+      "options": ["Canary", "African Grey Parrot", "Macaw", "Ostrich"]
+    },
     {
       "question": "Which animal is known for its black and white fur and is native to China?",
       "answer": "Giant Panda",
@@ -230,6 +243,61 @@
       "question": "What is the chemical symbol for iron?",
       "answer": "Fe",
       "options": ["Au", "Ag", "Fe", "Cu"]
+    },
+    {
+      "question": "Which planet is known as the 'Red Planet'?",
+      "answer": "Mars",
+      "options": ["Venus", "Jupiter", "Mars", "Saturn"]
+    },
+    {
+      "question": "What is the capital city of France?",
+      "answer": "Paris",
+      "options": ["Rome", "London", "Madrid", "Paris"]
+    },
+    {
+      "question": "What is the largest mammal on Earth?",
+      "answer": "Blue Whale",
+      "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"]
+    },
+    {
+      "question": "In which country is the Great Wall located?",
+      "answer": "China",
+      "options": ["India", "Japan", "China", "Egypt"]
+    },
+    {
+      "question": "Which country is famous for its pyramids, including the Great Pyramid of Giza?",
+      "answer": "Egypt",
+      "options": ["Mexico", "Egypt", "Greece", "India"]
+    },
+    {
+      "question": "What is the largest organ in the human body?",
+      "answer": "Skin",
+      "options": ["Liver", "Brain", "Heart", "Skin"]
+    },
+    {
+      "question": "How many continents are there on Earth?",
+      "answer": "Seven",
+      "options": ["Four", "Five", "Six", "Seven"]
+    },
+    {
+      "question": "Which animal is known as the 'King of the Jungle'?",
+      "answer": "Lion",
+      "options": ["Tiger", "Lion", "Elephant", "Giraffe"]
+    },
+    {
+      "question": "What do caterpillars transform into?",
+      "answer": "Butterflies",
+      "options": ["Flowers", "Butterflies", "Spiders", "Beetles"]
+    },
+    {
+      "question": "What is the capital city of the United States?",
+      "answer": "Washington, D.C.",
+      "options": ["New York City", "Washington, D.C.", "Los Angeles", "Chicago"]
+    },
+    {
+      "question": "What is the name of the biggest planet in our solar system?",
+      "answer": "Jupiter",
+      "options": ["Mars", "Venus", "Saturn", "Jupiter"]
     }
   ]
 }

@@ -20,6 +20,7 @@ export async function GET(req, res) {
   const limit = searchParams.get("limit") || 5;
   try {
     const d = await find(cat, limit);
+    console.log(d)
     return NextResponse.json(d, { status: 200 });
   } catch (error) {
     return NextResponse.json(error, { status: 400 });
