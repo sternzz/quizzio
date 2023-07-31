@@ -8,6 +8,8 @@ export default function Home() {
   const [amount, setAmount] = useState(5);
   const [category, setCategory] = useState("general");
 
+
+  
   const handleCategory = (e) => {
     setCategory(e.target.value);   
   };
@@ -22,7 +24,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen max-w-2xl mx-auto flex-col items-center justify-start p-4 text-white">
+    <main className="flex min-h-screen max-w-xl mx-auto flex-col items-center justify-start p-4 text-white">
       <section className="w-full mt-24">
         <h1 className="text-xl font-regular">Quizzio</h1>
         <h1 className="text-2xl font-semibold my-2">The Quiz Game</h1>
