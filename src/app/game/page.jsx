@@ -4,7 +4,7 @@ import Game from "@/components/Game";
 import React, { useEffect, useState } from "react";
 
 
-const page = ({ searchParams }) => {
+const Page = ({ searchParams }) => {
   const { category, questions: amount } = searchParams;
   const [questions, setQuestions] = useState();
 
@@ -26,4 +26,4 @@ const page = ({ searchParams }) => {
   return <>{questions ? <Game data={questions} /> : null}</>;
 };
 
-export default page;
+export default Page;
