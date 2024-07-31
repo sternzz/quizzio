@@ -1,7 +1,7 @@
 "use client";
 
 import Game from "@/components/Game";
-import Loading from "@/components/loading";
+import Loading from "@/components/Loading";
 import React, { useEffect, useState } from "react";
 
 const Page = ({ searchParams }) => {
