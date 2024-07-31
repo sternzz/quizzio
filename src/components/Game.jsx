@@ -3,6 +3,7 @@
 import Question from "@/components/Question";
 import React, { useEffect, useState } from "react";
 import GameOver from "./GameOver";
+import { useRouter } from "next/navigation";
 
 const Game = ({ data }) => {
   const [questions, setQuestions] = useState([]);
@@ -48,7 +49,10 @@ const Game = ({ data }) => {
   return (
     <main className="flex min-h-screen max-w-2xl mx-auto flex-col items-center justify-start p-4 text-white ">
       {gameOver ? (
-        <GameOver questionLength={questions?.length} correctCount={correctCount} />
+        <GameOver
+          questionLength={questions?.length}
+          correctCount={correctCount}
+        />
       ) : (
         <Question
           question={currentQuestion}

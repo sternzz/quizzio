@@ -1,29 +1,34 @@
-"use client"
+"use client";
 
 import Game from "@/components/Game";
+import Loading from "@/components/loading";
 import React, { useEffect, useState } from "react";
-
 
 const Page = ({ searchParams }) => {
   const { category, questions: amount } = searchParams;
   const [questions, setQuestions] = useState();
 
-  useEffect(()=> {
+  useEffect(() => {
     const fetchQuestions = async (category, amount) => {
       try {
+        console.log("Data fetching started");
         const request = await fetch(`/api?cat=${category}&amount=${amount}`, {
           cache: "no-store",
         });
         const data = await request.json();
-        setQuestions(data)
+        setQuestions(data);
       } catch (error) {
         console.log(error);
       }
     };
-    fetchQuestions(category, amount)
-  }, [])
+    fetchQuestions(category, amount);
+  }, []);
 
-  return <>{questions ? <Game data={questions} /> : null}</>;
+  return questions && questions?.length > 1 ? (
+    <Game data={questions} />
+  ) : (
+    <Loading />
+  );
 };
 
 export default Page;
